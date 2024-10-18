@@ -6,4 +6,8 @@
    ```
    git clone git@github.com:mel011/php8-xdebug-m1-mac.git
    Open in PHPStorm or your favorite editor
-   If using another editor get the default config for xdebug for that respective editor
+   
+   If you are using the Visual Studio IDE see below
+   https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug
+
+
