@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"  # Expose Apache on port 8080
+      - "9003:9003"  # Expose Xdebug port
+    volumes:
+      - ./src:/var/www/html  # Mount your application code
+    extra_hosts:
+      - "host.docker.internal:host-gateway"  # Needed for Xdebug on Linux (for Mac/Windows, this is built-in)
