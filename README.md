@@ -9,7 +9,7 @@
     
    Open the cloned repo in PHPStorm or your favorite editor, Phpstorm is generally configured to listen on port 9003 which is needed.
 
-   If you are using the Visual Studio IDE see below
+   If you are using the Visual Studio IDE see
    https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug
     
 3. Navigate to ``` localhost:8080``` in your browser
