@@ -15,7 +15,7 @@
    If you are using the Visual Studio IDE see
    https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug
     
-4. Navigate to ``` localhost:8080``` in your browser
+4. Navigate to ``` localhost:8080``` in your browser 
    
 
 
